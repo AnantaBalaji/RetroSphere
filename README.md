@@ -1,5 +1,27 @@
 # RetroSphere
-hardware details and Driver for RetroSphere prototype
 
-![circuit diagaram for pixart camera](https://github.com/AnantaBalaji/RetroSphere/blob/main/images/pin%20diagaram%20ESP32%20pixart.jpg)
-![Two camera circuit diagram](https://github.com/AnantaBalaji/RetroSphere/blob/main/images/two%20camera%20connection.jpg)
+Hardware details and drivers for the RetroSphere prototype.
+
+![Circuit diagaram for pixart camera](images/pin_diagaram_ESP32_pixart.jpg)
+![Two camera circuit diagram](images/two_camera_connection.jpg)
+
+## References
+
+If you use RetroSphere in your research, please reference it as:
+
+```bibtex
+@inproceedings{Balaji2021RetroSphere,
+  title = {{RetroSphere: Self-Contained Passive 3D Controller Tracking for Augmented Reality}},
+  author = {Balaji, Ananta and Kimber, Clayton and Li, David and Wu, Shengzhi and Du, Ruofei and Kim, David},
+  year = {2021},
+}
+```
+
+or
+
+```txt
+Ananta Balaji, Clayton Kimber, David Li, Shengzhi Wu, Ruofei Du, and David Kim. 2021. RetroSphere: Self-Contained Passive 3D Controller Tracking for Augmented Reality. 2021.
+```
+
+We would like to also thank Levana Chen, Xinyun Huang, and Ted Bisson for
+integrating DepthLab with AR Foundation.
