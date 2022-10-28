@@ -2,7 +2,7 @@
 
 # More Details on step-by-step firmware programming for RetroSphere and interactive Unity 3D experiences will be released soon
 
-![RetroSphere prototype](images/retrosphere.jpg)
+![RetroSphere prototype](images/retrosphere.jpeg)
 
 Hardware details and drivers for the RetroSphere prototype.
 
