@@ -1,6 +1,6 @@
 # RetroSphere
 
-# More Details on step-by-step firmware_for_RetroSphere and Unity 3D experiences will be released soon
+# More Details on step-by-step firmware programming for RetroSphere and interactive Unity 3D experiences will be released soon
 
 ![RetroSphere prototype](images/retrosphere.jpg)
 
