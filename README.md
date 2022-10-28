@@ -1,6 +1,7 @@
 # RetroSphere
 
-![More Details on step-by-step firmware_for_RetroSphere and Unity 3D experiences will be released soon!]
+![More Details on step-by-step firmware_for_RetroSphere and Unity 3D experiences will be released soon](images/retrosphere.jpg)
+
 Hardware details and drivers for the RetroSphere prototype.
 
 ![Circuit diagaram for pixart camera](images/pin_diagaram_ESP32_pixart.jpg)
