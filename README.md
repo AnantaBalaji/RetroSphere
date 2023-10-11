@@ -1,13 +1,34 @@
 # RetroSphere
 
-## More Details on step-by-step firmware programming for RetroSphere and interactive Unity 3D experiences will be released soon
-
 ![RetroSphere prototype](images/retrosphere.jpeg)
 
-Hardware details and drivers for the RetroSphere prototype.
+This repository contains the hardware details and the associated Arduino Firmware library for RetroSphere. For more information on the project and tutorial, visit the wiki or the website (<https://retrospherev1.github.io/>) 
 
-![Circuit diagaram for pixart camera](images/pin_diagaram_ESP32_pixart.jpg)
+## Hardware components / Prerequisites
+1. Pixart IR tracker (PAJ7025R3) <https://www.codico.com/en/paj7025r3-sample-kit-cdc> - 2 Nos
+2. Optek OP294 IR LEDs <https://www.mouser.sg/ProductDetail/Optek-TT-Electronics/OP294?qs=N5kmjX%2FbzE4V2o1kTKg1ww%3D%3D> - 8 Nos
+3. ESP32-WROOM-32 Dev board <https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf>
+4. 600 0hm Resistor
+5. Soldering station
+6. Wires
+
+## Hardware Connections
+![Circuit diagram for pixart camera](images/pin_diagaram_ESP32_pixart.jpg)
 ![Two camera circuit diagram](images/two_camera_connection.jpg)
+
+## Firmware setup
+
+Setup
+Download the library as a zip folder and install it as described here: https://www.arduino.cc/en/Guide/Libraries ("Importing a .zip Library")
+
+Working
+Connect the board following the tutorial on the wiki.
+Step 1: Stereo IR camera calibration
+Run the firmware in Camera Calibration/Camera_Calib.ino. The hardware is now calibrated and ready for tracking.
+
+For **3DoF Tracking of the Retroreflective stylus**, Flash the Firmware in 3DoF tracking firmware/3dof_tracker.ino.
+
+For **6DoF Tracking of the Retroreflective stylus**, Flash the Firmware in 6DoF tracking firmware/6dof_tracker.ino.
 
 ## References
 
