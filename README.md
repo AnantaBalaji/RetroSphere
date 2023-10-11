@@ -4,6 +4,8 @@
 
 This repository contains the hardware details and the associated Arduino Firmware library for RetroSphere. For more information on the project and tutorial, visit the wiki or the website (<https://retrospherev1.github.io/>) 
 
+Note: Our most-recent and updated project webpage is currently hosted at https://retrospherev1.github.io/. 
+
 ## Hardware components / Prerequisites
 1. Pixart IR tracker (PAJ7025R3) <https://www.codico.com/en/paj7025r3-sample-kit-cdc> - 2 Nos
 2. Optek OP294 IR LEDs <https://www.mouser.sg/ProductDetail/Optek-TT-Electronics/OP294?qs=N5kmjX%2FbzE4V2o1kTKg1ww%3D%3D> - 8 Nos
