@@ -30,7 +30,7 @@ For **3DoF Tracking of the Retroreflective stylus**, Flash the Firmware in 3DoF 
 
 For **6DoF Tracking of the Retroreflective stylus**, Flash the Firmware in 6DoF tracking firmware/6dof_tracker.ino.
 
-# Unity Demo applications
+## Unity Demo applications
 
 For running our Unity applications, please download our Unity demos as unity apps/unity_app_object_manipulation.zip. For more details on running our Unity Demos, please refer to the readme.md inside unity apps folder.
 ## References
